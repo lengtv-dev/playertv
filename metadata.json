@@ -1,0 +1,6 @@
+{
+  "name": "SiamIPTV Player",
+  "description": "เว็บ IPTV Player คุณภาพสูง รองรับระบบ Xtream Codes API (XSTREAM), M3U / playlist.m3u และไฟล์เพลย์ลิสต์ Wiseplay w3u พร้อมระบบสลับเพลย์ลิสต์",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
