@@ -1,0 +1,16 @@
+# Exported from Render on 2026-09-06T21:09:17Z
+version: "1"
+projects:
+- name: api
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: playertv
+      runtime: node
+      repo: https://github.com/lengtv-dev/playertv
+      plan: free
+      region: oregon
+      buildCommand: bun install
+      startCommand: yarn start
+      autoDeployTrigger: commit
