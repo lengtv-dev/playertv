@@ -12,5 +12,5 @@ projects:
       plan: free
       region: oregon
       buildCommand: bun install
-      startCommand: yarn start
+      startCommand: yarn run start
       autoDeployTrigger: commit
